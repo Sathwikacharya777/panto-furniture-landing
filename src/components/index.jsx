@@ -19,7 +19,7 @@ const Index = () => {
 
       {/* Hero Section */}
       <section className="hero">
-        <img src="/images/landing.jpg" alt="landing" />
+        <img src={process.env.PUBLIC_URL +"/images/landing.jpg"} alt="landing" />
         <h1>Make Your Interior More <br /> Minimalistic & Modern</h1>
         <p>Turn your room with panto into a lot more minimalist <br /> and modern with ease and speed</p>
         <input type="text" placeholder="Search furniture" className="search" />
@@ -50,22 +50,22 @@ const Index = () => {
         <h2>Best Selling Product</h2>
         <div className="product-cards">
           <div className="product-card">
-            <img src="/images/chair1.jpeg" alt="Chair" />
+            <img src={process.env.PUBLIC_URL +"/images/chair1.jpeg"} alt="Chair" />
             <h3>Sakarias Armchair</h3>
             <p>$392</p>
           </div>
           <div className="product-card">
-            <img src="/images/chair2.jpeg" alt="Chair" />
+            <img src={process.env.PUBLIC_URL +"/images/chair2.jpeg"} alt="Chair" />
             <h3>Baltzar Chair</h3>
             <p>$299</p>
           </div>
           <div className="product-card">
-            <img src="/images/chair3.jpeg" alt="Chair" />
+            <img src={process.env.PUBLIC_URL +"/images/chair3.jpeg"} alt="Chair" />
             <h3>Anjay Chair</h3>
             <p>$519</p>
           </div>
           <div className="product-card">
-            <img src="/images/chair4.jpeg" alt="Chair" />
+            <img src={process.env.PUBLIC_URL +"/images/chair4.jpeg"} alt="Chair" />
             <h3>Nyantuy Chair</h3>
             <p>$921</p>
           </div>
@@ -75,7 +75,7 @@ const Index = () => {
       {/* EXPERIENCE SECTION */}
       <section className="experience-section">
         <div className="experience-image">
-          <img src="/images/experiance.jpg" alt="Experience" />
+          <img src={process.env.PUBLIC_URL +"/images/experiance.jpg"} alt="Experience" />
         </div>
         <div className="experience-content">
           <h5>EXPERIENCES</h5>
@@ -94,9 +94,9 @@ const Index = () => {
           <a href="#">More info →</a>
         </div>
         <div className="materials-images">
-          <img src="/images/matirial1.jpeg" alt="Material 1" />
-          <img src="/images/matirial2.jpeg" alt="Material 2" />
-          <img src="/images/matirial3.jpeg" alt="Material 3" />
+          <img src={process.env.PUBLIC_URL +"/images/matirial1.jpeg"} alt="Material 1" />
+          <img src={process.env.PUBLIC_URL +"/images/matirial2.jpeg"} alt="Material 2" />
+          <img src={process.env.PUBLIC_URL +"/images/matirial3.jpeg"} alt="Material 3" />
         </div>
       </section>
 
@@ -107,7 +107,7 @@ const Index = () => {
         <div className="testimonial-cards">
           <div className="testimonial-card">
             <div className="testimonial-image">
-              <img src="/images/client1.jpeg" alt="Client 1" />
+              <img src={process.env.PUBLIC_URL +"/images/client1.jpeg"} alt="Client 1" />
               <div className="testimonial-content">
                 <h4>Bang Upin</h4>
                 <p>Pelanggan Anging</p>
@@ -118,7 +118,7 @@ const Index = () => {
       
           <div className="testimonial-card">
             <div className="testimonial-image">
-              <img src="/images/client2.jpeg" alt="Client 2" />
+              <img src={process.env.PUBLIC_URL +"/images/client2.jpeg"} alt="Client 2" />
               <div className="testimonial-content">
                 <h4>Ibuk Sukijan</h4>
                 <p>Ibu Rumah Tangga</p>
@@ -129,7 +129,7 @@ const Index = () => {
       
           <div className="testimonial-card">
             <div className="testimonial-image">
-              <img src="/images/client4.jpeg" alt="Client 3" />
+              <img src={process.env.PUBLIC_URL +"/images/client4.jpeg"} alt="Client 3" />
               <div className="testimonial-content">
                 <h4>Mpol Ina</h4>
                 <p>Content Creator</p>
