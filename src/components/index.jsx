@@ -7,6 +7,11 @@ const Index = () => {
       {/* Header */}
       <header className="header">
         <div className="logo">Panto</div>
+        <div className="menu-toggle" onClick={() => {
+          document.querySelector('.nav').classList.toggle('active');
+        }}>
+          ☰
+        </div>
         <nav className="nav">
           <ul>
             <li>Furniture</li>
@@ -16,6 +21,7 @@ const Index = () => {
           </ul>
         </nav>
       </header>
+
 
       {/* Hero Section */}
       <section className="hero">
