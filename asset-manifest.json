@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/panto-furniture-landing/static/css/main.2b66b444.css",
-    "main.js": "/panto-furniture-landing/static/js/main.bed605d9.js",
+    "main.css": "/panto-furniture-landing/static/css/main.ca80369a.css",
+    "main.js": "/panto-furniture-landing/static/js/main.269ae017.js",
     "index.html": "/panto-furniture-landing/index.html",
-    "main.2b66b444.css.map": "/panto-furniture-landing/static/css/main.2b66b444.css.map",
-    "main.bed605d9.js.map": "/panto-furniture-landing/static/js/main.bed605d9.js.map"
+    "main.ca80369a.css.map": "/panto-furniture-landing/static/css/main.ca80369a.css.map",
+    "main.269ae017.js.map": "/panto-furniture-landing/static/js/main.269ae017.js.map"
   },
   "entrypoints": [
-    "static/css/main.2b66b444.css",
-    "static/js/main.bed605d9.js"
+    "static/css/main.ca80369a.css",
+    "static/js/main.269ae017.js"
   ]
 }
